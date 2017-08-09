@@ -93,8 +93,8 @@ class GameView: NSView {
             newGameButton?.draw(at: ngbRect.origin, from: NSZeroRect, operation: .sourceOver, fraction: 1)
             if state == .GAME_OVER {
                 targetImage?.draw(at: targetLocation!, from: NSZeroRect, operation: .sourceOver, fraction: 1)
-				let text = NSAttributedString(string: "\(gameTime)")
-				text.draw(at: NSMakePoint(10, 105))
+				let text = NSAttributedString(string: "\(gameTime) seconds")
+				text.draw(at: NSMakePoint(10, 70))
             }
         } //an else clause would be added for GAME_IN_PROGRESS if anything has to be drawn
     }
