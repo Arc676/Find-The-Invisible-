@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7122C8891EFBFE870061FE69 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7122C8881EFBFE870061FE69 /* Credits.rtf */; };
+		7122C88B1EFBFF5A0061FE69 /* beep.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7122C88A1EFBFF5A0061FE69 /* beep.m4a */; };
+		71812B511F3B167F00FB210A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 71812B4F1F3B167F00FB210A /* LICENSE */; };
+		71B14ED11E593D3700D92B79 /* newGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B14ED01E593D3700D92B79 /* newGame.png */; };
+		71D8D7291E55BE10005648F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D8D7281E55BE10005648F7 /* AppDelegate.swift */; };
+		71D8D72B1E55BE10005648F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D8D72A1E55BE10005648F7 /* Assets.xcassets */; };
+		71D8D72E1E55BE10005648F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D8D72C1E55BE10005648F7 /* MainMenu.xib */; };
+		71D8D7361E55BEEE005648F7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D8D7351E55BEEE005648F7 /* GameView.swift */; };
+		71D8D7381E55EA40005648F7 /* defaultTarget.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D8D7371E55EA40005648F7 /* defaultTarget.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7122C8881EFBFE870061FE69 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = "Find The Invisible */Supporting Files/Credits.rtf"; sourceTree = "<group>"; };
+		7122C88A1EFBFF5A0061FE69 /* beep.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beep.m4a; sourceTree = "<group>"; };
+		71812B4F1F3B167F00FB210A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		71812B501F3B167F00FB210A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71B14ED01E593D3700D92B79 /* newGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newGame.png; sourceTree = "<group>"; };
+		71D8D7251E55BE10005648F7 /* Find The Invisible *.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find The Invisible *.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D8D7281E55BE10005648F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Code/AppDelegate.swift; sourceTree = "<group>"; };
+		71D8D72A1E55BE10005648F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71D8D72D1E55BE10005648F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		71D8D72F1E55BE10005648F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D8D7351E55BEEE005648F7 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameView.swift; path = Code/GameView.swift; sourceTree = "<group>"; };
+		71D8D7371E55EA40005648F7 /* defaultTarget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultTarget.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71D8D7221E55BE10005648F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7122C8871EFBFE6E0061FE69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71812B4F1F3B167F00FB210A /* LICENSE */,
+				71812B501F3B167F00FB210A /* README.md */,
+				7122C8881EFBFE870061FE69 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7172C67F1E59404F00D83DFD /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				7122C88A1EFBFF5A0061FE69 /* beep.m4a */,
+			);
+			name = Sound;
+			path = "Find The Invisible */Sound";
+			sourceTree = "<group>";
+		};
+		71B14ED21E593D3D00D92B79 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				71B14ED01E593D3700D92B79 /* newGame.png */,
+				71D8D7371E55EA40005648F7 /* defaultTarget.png */,
+			);
+			name = Images;
+			path = "Find The Invisible */Images";
+			sourceTree = "<group>";
+		};
+		71D8D71C1E55BE10005648F7 = {
+			isa = PBXGroup;
+			children = (
+				7122C8871EFBFE6E0061FE69 /* Supporting Files */,
+				7172C67F1E59404F00D83DFD /* Sound */,
+				71B14ED21E593D3D00D92B79 /* Images */,
+				71D8D7271E55BE10005648F7 /* Find The Invisible * */,
+				71D8D7261E55BE10005648F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71D8D7261E55BE10005648F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71D8D7251E55BE10005648F7 /* Find The Invisible *.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71D8D7271E55BE10005648F7 /* Find The Invisible * */ = {
+			isa = PBXGroup;
+			children = (
+				71D8D7281E55BE10005648F7 /* AppDelegate.swift */,
+				71D8D72A1E55BE10005648F7 /* Assets.xcassets */,
+				71D8D72C1E55BE10005648F7 /* MainMenu.xib */,
+				71D8D72F1E55BE10005648F7 /* Info.plist */,
+				71D8D7351E55BEEE005648F7 /* GameView.swift */,
+			);
+			path = "Find The Invisible *";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71D8D7241E55BE10005648F7 /* Find The Invisible * */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D8D7321E55BE10005648F7 /* Build configuration list for PBXNativeTarget "Find The Invisible *" */;
+			buildPhases = (
+				71D8D7211E55BE10005648F7 /* Sources */,
+				71D8D7221E55BE10005648F7 /* Frameworks */,
+				71D8D7231E55BE10005648F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find The Invisible *";
+			productName = "Find The Invisible *";
+			productReference = 71D8D7251E55BE10005648F7 /* Find The Invisible *.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71D8D71D1E55BE10005648F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Arc676;
+				TargetAttributes = {
+					71D8D7241E55BE10005648F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71D8D7201E55BE10005648F7 /* Build configuration list for PBXProject "Find The Invisible *" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71D8D71C1E55BE10005648F7;
+			productRefGroup = 71D8D7261E55BE10005648F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71D8D7241E55BE10005648F7 /* Find The Invisible * */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71D8D7231E55BE10005648F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7122C8891EFBFE870061FE69 /* Credits.rtf in Resources */,
+				7122C88B1EFBFF5A0061FE69 /* beep.m4a in Resources */,
+				71D8D7381E55EA40005648F7 /* defaultTarget.png in Resources */,
+				71812B511F3B167F00FB210A /* LICENSE in Resources */,
+				71D8D72B1E55BE10005648F7 /* Assets.xcassets in Resources */,
+				71B14ED11E593D3700D92B79 /* newGame.png in Resources */,
+				71D8D72E1E55BE10005648F7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71D8D7211E55BE10005648F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D8D7361E55BEEE005648F7 /* GameView.swift in Sources */,
+				71D8D7291E55BE10005648F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71D8D72C1E55BE10005648F7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71D8D72D1E55BE10005648F7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71D8D7301E55BE10005648F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71D8D7311E55BE10005648F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		71D8D7331E55BE10005648F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Find The Invisible */Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arc676.Find-The-Invisible--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71D8D7341E55BE10005648F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Find The Invisible */Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arc676.Find-The-Invisible--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71D8D7201E55BE10005648F7 /* Build configuration list for PBXProject "Find The Invisible *" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D8D7301E55BE10005648F7 /* Debug */,
+				71D8D7311E55BE10005648F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D8D7321E55BE10005648F7 /* Build configuration list for PBXNativeTarget "Find The Invisible *" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D8D7331E55BE10005648F7 /* Debug */,
+				71D8D7341E55BE10005648F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71D8D71D1E55BE10005648F7 /* Project object */;
+}
