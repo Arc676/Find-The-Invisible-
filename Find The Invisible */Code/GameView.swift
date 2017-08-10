@@ -63,6 +63,7 @@ class GameView: NSView {
         maxDistance = sqrtf(Float(frame.width * frame.width) + Float(frame.height * frame.height))
         updateFeedbackVolume()
 
+		gameTime = 0
 		timer = Timer.scheduledTimer(timeInterval: 0.1,
 		                             target: self,
 		                             selector: #selector(tick),
